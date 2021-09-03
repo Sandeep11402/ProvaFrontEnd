@@ -334,7 +334,7 @@ a {
 .w3-badge,
 .w3-tag {
   background-color: #000;
-  color: #fff;
+  color: rgb(148, 69, 69);
   display: inline-block;
   padding-left: 8px;
   padding-right: 8px;
