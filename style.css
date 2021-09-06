@@ -306,7 +306,7 @@ a {
   white-space: nowrap;
 }
 .w3-btn:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 16px 0 rgba(73, 58, 58, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .w3-btn,
 .w3-button {
@@ -424,7 +424,7 @@ a {
 .w3-sidebar {
   height: 100%;
   width: 200px;
-  background-color: #fff;
+  background-color: rgb(219, 27, 27);
   position: fixed !important;
   z-index: 1;
   overflow: auto;
@@ -909,14 +909,14 @@ a {
 }
 .w3-code {
   width: auto;
-  background-color: #fff;
+  background-color: rgb(158, 132, 132);
   padding: 8px 12px;
   border-left: 4px solid #4caf50;
   word-wrap: break-word;
 }
 .w3-codespan {
   color: crimson;
-  background-color: #f1f1f1;
+  background-color: #d84f4f;
   padding-left: 4px;
   padding-right: 4px;
   font-size: 110%;
@@ -1163,7 +1163,7 @@ a {
   margin-right: 16px !important;
 }
 .w3-padding-small {
-  padding: 4px 8px !important;
+  padding: px 2px !important;
 }
 .w3-padding {
   padding: 8px 16px !important;

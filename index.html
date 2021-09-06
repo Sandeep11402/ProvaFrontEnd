@@ -25,8 +25,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-bar-block">
     <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-home fa-fw w3-margin-right"></i>HOME</a> 
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
-    <a href="#Education" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user-graduate fa-fw w3-margin-right"></i>EDUCATION</a> 
-    <a href="#Skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cogs fa-fw w3-margin-right"></i>SKILLs</a> 
+    <a href="#education" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user-graduate fa-fw w3-margin-right"></i>EDUCATION</a> 
+    <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cogs fa-fw w3-margin-right"></i>SKILLs</a> 
+    <a href="#Linguistic Skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cogs fa-fw w3-margin-right"></i>LINGUISTIC SKILLs</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
   </div>
   <div class="w3-panel w3-large">
@@ -55,51 +56,75 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
  
 
   <!-- Images of Me -->
- 
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-    <h4><b>About Me</b></h4>
-    <p>I am an electronic and Computer engigneer, looking for new opportunities to gain new skills.</p>
+  <h4 id="home"><i class="fa fa-home fa-fw w3-margin-right"></i><b>HOME</b></h4>
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px"></div>
+  <div class="w3-container w3-card w3-margin-bottom w3-white">
+    <h4 id="about"><b>About Me</b></h4>
+    
+    <p>I am newly graduated in computer and electronic engigneering and i am looking for new opportunities to gain more skills.</p>
     <hr>
-    <h4><i class="fa fa-user-graduate fa-fw w3-margin-right"></i><b>Education</b></h4>
-    <p>2011-2016:         Liceo Linguistico,Istituto Magistrale"T.Gulli"</p>
-    <p>2016-2017:         Corso di Laurea in Lingue,Università degli studi di Messina</p>
-    <p>2017-2021:         Laurea in Ingegneria Elettronica e Informatica,Università degli studi di Messina</p>
-    <hr>
-    <h4><i class="fa fa-cogs fa-fw w3-margin-right"></i><b>Skills</b></h4>
-    <p>-Linguaggi di programmazione:c,c#</p>
-    <p>-Database relazionali,Sql</p>
-    <p>-Progettazione dei dispositivi elettronici tramite software Orcad Pspice</p>
-    <hr>
+  </div>
+    <div class="w3-container w3-card w3-black">
+      <h4 id="education"><i class="fa fa-user-graduate fa-fw w3-margin-right"></i><b>Education</b></h4>
+     
+      <div class="w3-container">
+        <h5 class="w3-opacity"><b>Università degli studi di Messina</b></h5>
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2021</h6>
+        <p>Bachelor Degree in Electronic and Computer Science</p>
+        <hr>
+      </div>
+      <div class="w3-container">
+        <h5 class="w3-opacity"><b>Università degli studi di Messina</b></h5>
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2017</h6>
+        <p>Bachelor Degree in languages</p>
+        <hr>
+      </div>
+      <div class="w3-container">
+        <h5 class="w3-opacity"><b>Liceo Linguistico "T.Gulli"</b></h5>
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011 - 2016</h6>
+        <p>Diploma</p>
+        <hr>
+      </div>
+    
 
-    <h4><b>Linguistic Skills</b></h4>
+    <div class="w3-container w3-card w3-margin-bottom w3-green">
+    <h4 id="skills"><i class="fa fa-cogs fa-fw w3-margin-right"></i><b>Skills</b></h4>
+    <p>-Programming languages:c,c#</p>
+    <p>-Database relazionali,Sql</p>
+    <p>-Progettazione dei dispositivi elettronici tramite Orcad Pspice</p>
+    <p>-Microwave office for sensors designing</p>
+    <hr>
+    </div>
+    <h4 id="Linguistic Skills"></h4><b>Linguistic Skills</b></h4>
     <!-- Progress bars / Skills -->
     <p>Italian</p>
     <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+      <div class="w3-container w3-green w3-padding-small w3-center" style="width:85%">85%</div>
     </div>
     <p>English</p>
     <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+      <div class="w3-container w3-light-green w3-padding-small w3-center" style="width:85%">85%</div>
     </div>
     <p>German</p>
     <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:60%">60%</div>
+      <div class="w3-container w3-green w3-padding-small w3-center" style="width:60%">60%</div>
     </div>
     <p>French</p>
     <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:60%">60%</div>
+      <div class="w3-container w3-light-green w3-padding-small w3-center" style="width:60%">60%</div>
     </div>
     <p>Hindi</p>
     <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:100%">100%</div>
+      <div class="w3-container w3-green w3-padding-small w3-center" style="width:100%">100%</div>
     </div>
     <p>
-      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+      <button class="w3-button w3-blue w3-padding w3-margin-top w3-margin-bottom">
         <i class="fa fa-download w3-margin-right"></i>Download Resume
       </button>
     </p>
     <hr>
-    
+    </div>
+    <p> </p>
     
     <!-- Pricing Tables -->
     
@@ -112,7 +137,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <p>s.kaurdhesi1@gmail.com</p>
       </div>
       <div class="w3-third w3-teal">
-        <p><i class="fa fa-linkedin w3-xxlarge w3-text-light-grey"></i></p>
+        <p><i class="fa fa-linkedin w3-large w3-text-light-grey"></i></p>
         <p>https://www.linkedin.com/in/sandeep-kaur-866b3b205</p>
       </div>
       <div class="w3-third w3-dark-grey">
@@ -149,9 +174,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <div class="w3-third">
       <h3>POPULAR TAGS</h3>
       <p>
-        <span class="w3-tag w3-black w3-margin-bottom">Tecnology</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">electronics</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Computer Science</span>
+        <span class="w3-tag w3-grey w3-margin-bottom">Tecnology</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">electronics</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Computer Science</span>
         <span class="w3-tag w3-grey w3-small w3-margin-bottom">Programming</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Creativity</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Digitization</span>
-        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Projecting</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Developer</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Designing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Developer</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Artificial intelligence</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Machine learning</span> 
     
       </p>
     </div>
