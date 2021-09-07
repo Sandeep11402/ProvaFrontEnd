@@ -7,8 +7,9 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <script src="https://kit.fontawesome.com/92af127d4c.js" crossorigin="anonymous"></script>
-<script src="Javascript/java.js"></script>
+<script src="js/java.js"></script>
 
+<!---starting of body---->
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
@@ -43,20 +44,14 @@
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px">
 
-
+<!--Header--->
   <header
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-green" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
    
+  <!---Home--->
   </header>
-  
-  
-  
-
- 
-
-  
-  <h4 id="home"><i class="fa fa-home fa-fw w3-margin-right"></i><b>HOME</b></h4>
+  <h1 id="home"><i class="fa fa-home fa-fw w3-margin-right"></i><b>HOME</b></h1>
 
   <header class="w3-display-container w3-wide" id="home">
     <img class="w3-image" src="img/informat.jpg" alt="Digital World" width="1000" height="400">
@@ -68,14 +63,17 @@
     </div>
   </header>
 
+
+ <!----About me---->
   <div class="w3-container w3-padding-large" style="margin-bottom:32px"></div>
   <div class="w3-container w3-card w3-margin-bottom w3-light-blue">
     <h4 id="about"><b>About Me</b></h4>
-    
     <p>I am newly graduated in computer and electronic engigneering and i am looking for new opportunities to gain more skills.</p>
     <hr>
   </div>
 
+
+  <!---Education---->
     <div class="w3-container w3-card w3-black">
       <h4 id="education"><i class="fa fa-user-graduate fa-fw w3-margin-right"></i><b>Education</b></h4>
      
@@ -97,8 +95,9 @@
         <p>Diploma</p>
         <hr>
       </div>
-    
-  <p></p>
+    <p></p>
+
+    <!---Skills---->
     <div class="w3-container w3-card w3-margin-bottom w3-green">
     <h4 id="skills"><i class="fa fa-cogs fa-fw w3-margin-right"></i><b>Skills</b></h4>
     <p>-Programming languages:c,c#</p>
@@ -107,8 +106,9 @@
     <p>-Microwave office for sensors designing</p>
     <hr>
     </div>
-    <h4 id="Linguistic Skills"></h4><b>Linguistic Skills</b></h4>
-    <!--Skills -->
+
+    <!--Linguistic Skills-->
+    <h5 id="Linguistic Skills"></h4><b>Linguistic Skills</b></h5>
     <p>Italian</p>
     <div class="w3-grey">
       <div class="w3-container w3-green w3-padding-small w3-center" style="width:85%">85%</div>
@@ -130,6 +130,8 @@
       <div class="w3-container w3-green w3-padding-small w3-center" style="width:100%">100%</div>
     </div>
     <p>
+
+      <!---Download CV-->
       <a href="CV Sandeep.pdf">
       <button class="w3-button w3-blue w3-padding w3-margin-top w3-margin-bottom">
         <i class="fa fa-download w3-margin-right"></i>Download Resume
@@ -156,60 +158,35 @@
       </div>
       <div class="w3-third w3-dark-grey">
         <p> <a href="https://github.com/Sandeep11402"><i class="fa fa-github w3-xxxlarge w3-text-light-grey"></i></a></p>
-        
-      </div>
+         </div>
     </div>
-
     <hr class="w3-opacity">
 
-  
+
+  <!---click on contact me----->
    <p>
-            
-      <button>
+    <button>
       <a href="contact.html"><i class="fa fa-paper-plane  w3-grey w3-padding w3-margin-right"></i><strong>CLICK HERE TO CONTACT ME</strong>
       </button>
       </a>
-    </p>   
+    </p> 
+    
+    
   <!-- Footer -->
   <footer class="w3-container w3-padding-32 w3-dark-grey">
   <div class="w3-row-padding">
     <div class="w3-third">
-     
-    </div>
-  
-   
-    <div class="w3-third">
+     </div>
+     <div class="w3-third">
       <h3>POPULAR TAGS</h3>
       <p>
         <span class="w3-tag w3-grey w3-margin-bottom">Tecnology</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">electronics</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Computer Science</span>
         <span class="w3-tag w3-grey w3-small w3-margin-bottom">Programming</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Creativity</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Digitization</span>
         <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Designing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Developer</span>
         <span class="w3-tag w3-grey w3-small w3-margin-bottom">Artificial intelligence</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Machine learning</span> 
-    
-      </p>
-    </div>
-
-</div>
-  </footer>
-  
- 
-
-<!-- End page content -->
-</div>
-
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
-
+    </p>
+   </footer>
+   </div>
 </body>
 </html>
 
