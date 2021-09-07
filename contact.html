@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>Contact me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script src="https://kit.fontawesome.com/92af127d4c.js" crossorigin="anonymous"></script>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+  
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="/img/Sandeep.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Sandeep Kaur</b></h4>
+    <p class="w3-text-grey"></p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html#home" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-home fa-fw w3-margin-right"></i>HOME</a> 
+    <a href="index.html#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="index.html#education" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user-graduate fa-fw w3-margin-right"></i>EDUCATION</a> 
+    <a href="index.html#skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cogs fa-fw w3-margin-right"></i>SKILLs</a> 
+    <a href="index.html#Linguistic Skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cogs fa-fw w3-margin-right"></i>LINGUISTIC SKILLs</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-xlarge">
+  
+    <a href="#contact" onclick="w3_close()" <i class="fa fa-envelope   w3-xlarge"></i></a>
+    <a href="#contact" onclick="w3_close()" <i class="fa fa-linkedin   w3-xlarge"></i></a>
+    <a href="#contact" onclick="w3_close()" <i class="fa fa-github   w3-xlarge"></i></a>
+  </div>
+</nav>
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+
+  <header
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-green" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+   
+  </header>
+<div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><a href="mailto:s.kaurdhesi1@gmail.com"><i class="fa fa-envelope w3-xxxlarge w3-text-light-grey"></i></a></p>
+        
+      </div>
+      <div class="w3-third w3-teal">
+        <p>  <a href="https://www.linkedin.com/in/sandeep-kaur-866b3b205"><i class="fa fa-linkedin w3-xxxlarge w3-text-light-grey"></i></a></p>
+      
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p> <a href="https://github.com/Sandeep11402"><i class="fa fa-github w3-xxxlarge w3-text-light-grey"></i></a></p>
+        
+      </div>
+    </div>
+
+    <hr class="w3-opacity">
+
+    <form action="https://formspree.io/f/myyllbje" method="post">
+      <div class="w3-section">
+        <label for="Name">Name</label>
+        <input class="w3-input w3-border" type="name" name="Name" id="name" required>
+      </div>
+      <div class="w3-section">
+        <label for="Email">Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" id="email" required>
+      </div>
+      <div class="w3-section">
+        <label for="Message">Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" id="message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+</body>
+</html>
